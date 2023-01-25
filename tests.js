@@ -21,8 +21,8 @@ describe('sayHello', function(){
     it('should return a string when called', function(){
         expect(typeof sayHello()).toBe("string");
     });
-    it('should return the string "Say, Hello" when executed', function(){
-        expect(sayHello()).toBe("Say, Hello");
+    it('should return the string "Say, Jane" when executed', function(){
+        expect(sayHello()).toBe("Say, Jane");
     });
     it("should never return 'undefined' when called", function(){
         expect(sayHello()).not.toBe(undefined);
